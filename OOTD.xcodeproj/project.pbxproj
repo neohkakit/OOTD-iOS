@@ -10,12 +10,14 @@
 		1D139642175206710002CB66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D139641175206710002CB66 /* UIKit.framework */; };
 		1D139644175206710002CB66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D139643175206710002CB66 /* Foundation.framework */; };
 		1D139646175206710002CB66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D139645175206710002CB66 /* CoreGraphics.framework */; };
-		1D13964C175206710002CB66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D13964A175206710002CB66 /* InfoPlist.strings */; };
-		1D13964E175206710002CB66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D13964D175206710002CB66 /* main.m */; };
 		1D139652175206710002CB66 /* OOTDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D139651175206710002CB66 /* OOTDAppDelegate.m */; };
 		1D139654175206710002CB66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D139653175206710002CB66 /* Default.png */; };
 		1D139656175206710002CB66 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D139655175206710002CB66 /* Default@2x.png */; };
 		1D139658175206710002CB66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D139657175206710002CB66 /* Default-568h@2x.png */; };
+		1D2DDFA417520C780075E30C /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1D2DDFA017520C780075E30C /* en.lproj */; };
+		1D2DDFA517520C780075E30C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DDFA117520C780075E30C /* main.m */; };
+		1D2DDFA617520C780075E30C /* OOTD-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D2DDFA217520C780075E30C /* OOTD-Info.plist */; };
+		1D2DDFA717520D1B0075E30C /* OOTD.app in Resources */ = {isa = PBXBuildFile; fileRef = 1D13963E175206710002CB66 /* OOTD.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,15 +25,15 @@
 		1D139641175206710002CB66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1D139643175206710002CB66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D139645175206710002CB66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1D139649175206710002CB66 /* OOTD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOTD-Info.plist"; sourceTree = "<group>"; };
-		1D13964B175206710002CB66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1D13964D175206710002CB66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1D13964F175206710002CB66 /* OOTD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OOTD-Prefix.pch"; sourceTree = "<group>"; };
 		1D139650175206710002CB66 /* OOTDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OOTDAppDelegate.h; sourceTree = "<group>"; };
 		1D139651175206710002CB66 /* OOTDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOTDAppDelegate.m; sourceTree = "<group>"; };
 		1D139653175206710002CB66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1D139655175206710002CB66 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1D139657175206710002CB66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1D2DDFA017520C780075E30C /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		1D2DDFA117520C780075E30C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D2DDFA217520C780075E30C /* OOTD-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OOTD-Info.plist"; sourceTree = "<group>"; };
+		1D2DDFA317520C780075E30C /* OOTD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OOTD-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +53,10 @@
 		1D139635175206710002CB66 = {
 			isa = PBXGroup;
 			children = (
-				1D139647175206710002CB66 /* OOTD */,
+				1D139647175206710002CB66 /* Code */,
 				1D139640175206710002CB66 /* Frameworks */,
 				1D13963F175206710002CB66 /* Products */,
+				1D2DDF9E17520BED0075E30C /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,28 +78,43 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1D139647175206710002CB66 /* OOTD */ = {
+		1D139647175206710002CB66 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				1D139650175206710002CB66 /* OOTDAppDelegate.h */,
-				1D139651175206710002CB66 /* OOTDAppDelegate.m */,
+				1D2DDF9D17520BC30075E30C /* AppDelegate */,
 				1D139648175206710002CB66 /* Supporting Files */,
 			);
-			path = OOTD;
+			path = Code;
 			sourceTree = "<group>";
 		};
 		1D139648175206710002CB66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1D139649175206710002CB66 /* OOTD-Info.plist */,
-				1D13964A175206710002CB66 /* InfoPlist.strings */,
-				1D13964D175206710002CB66 /* main.m */,
-				1D13964F175206710002CB66 /* OOTD-Prefix.pch */,
+				1D2DDFA017520C780075E30C /* en.lproj */,
+				1D2DDFA117520C780075E30C /* main.m */,
+				1D2DDFA217520C780075E30C /* OOTD-Info.plist */,
+				1D2DDFA317520C780075E30C /* OOTD-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D2DDF9D17520BC30075E30C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D139650175206710002CB66 /* OOTDAppDelegate.h */,
+				1D139651175206710002CB66 /* OOTDAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1D2DDF9E17520BED0075E30C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1D139653175206710002CB66 /* Default.png */,
 				1D139655175206710002CB66 /* Default@2x.png */,
 				1D139657175206710002CB66 /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,10 +169,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D13964C175206710002CB66 /* InfoPlist.strings in Resources */,
 				1D139654175206710002CB66 /* Default.png in Resources */,
 				1D139656175206710002CB66 /* Default@2x.png in Resources */,
 				1D139658175206710002CB66 /* Default-568h@2x.png in Resources */,
+				1D2DDFA417520C780075E30C /* en.lproj in Resources */,
+				1D2DDFA617520C780075E30C /* OOTD-Info.plist in Resources */,
+				1D2DDFA717520D1B0075E30C /* OOTD.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,23 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D13964E175206710002CB66 /* main.m in Sources */,
 				1D139652175206710002CB66 /* OOTDAppDelegate.m in Sources */,
+				1D2DDFA517520C780075E30C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1D13964A175206710002CB66 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D13964B175206710002CB66 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D139659175206710002CB66 /* Debug */ = {
@@ -244,9 +253,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OOTD/OOTD-Prefix.pch";
-				INFOPLIST_FILE = "OOTD/OOTD-Info.plist";
+				GCC_PREFIX_HEADER = "Code/Supporting Files/OOTD-Prefix.pch";
+				INFOPLIST_FILE = "Code/Supporting Files/OOTD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,9 +266,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OOTD/OOTD-Prefix.pch";
-				INFOPLIST_FILE = "OOTD/OOTD-Info.plist";
+				GCC_PREFIX_HEADER = "Code/Supporting Files/OOTD-Prefix.pch";
+				INFOPLIST_FILE = "Code/Supporting Files/OOTD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -281,6 +294,7 @@
 				1D13965D175206710002CB66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
