@@ -1,0 +1,102 @@
+PODS:
+  - CocoaLumberjack (1.6.2)
+  - DCRoundSwitch (0.0.1)
+  - DYRateView (0.0.2)
+  - FormatterKit (1.1.2):
+    - FormatterKit/AddressFormatter
+    - FormatterKit/ArrayFormatter
+    - FormatterKit/LocationFormatter
+    - FormatterKit/OrdinalNumberFormatter
+    - FormatterKit/TimeIntervalFormatter
+    - FormatterKit/UnitOfInformationFormatter
+    - FormatterKit/URLRequestFormatter
+  - FormatterKit/AddressFormatter (1.1.2)
+  - FormatterKit/ArrayFormatter (1.1.2)
+  - FormatterKit/LocationFormatter (1.1.2)
+  - FormatterKit/OrdinalNumberFormatter (1.1.2)
+  - FormatterKit/TimeIntervalFormatter (1.1.2)
+  - FormatterKit/UnitOfInformationFormatter (1.1.2)
+  - FormatterKit/URLRequestFormatter (1.1.2)
+  - iRate (1.7.5)
+  - JRSwizzle (1.0)
+  - JSONKit (1.5pre)
+  - libextobjc/EXTConcreteProtocol (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.2.5):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.2.5)
+  - Mantle (0.2.3):
+    - libextobjc/EXTKeyPathCoding
+    - libextobjc/EXTScope
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
+  - ODRefreshControl (1.1.0)
+  - OHAttributedLabel (3.3.0)
+  - PSTCollectionView (0.0.1)
+  - Reachability (3.1.0)
+  - ReactiveCocoa (0.13.1):
+    - ReactiveCocoa/Core
+    - ReactiveCocoa/RACExtensions
+  - ReactiveCocoa/Core (0.13.1):
+    - JRSwizzle (~> 1.0)
+    - libextobjc/EXTConcreteProtocol (~> 0.2.3)
+    - libextobjc/EXTKeyPathCoding (~> 0.2.3)
+    - libextobjc/EXTScope (~> 0.2.3)
+  - ReactiveCocoa/RACExtensions (0.13.1):
+    - ReactiveCocoa/Core
+  - RSOAuthEngine (1.0.0):
+    - MKNetworkKit
+  - SFHFKeychainUtils (0.0.1)
+  - SVProgressHUD (0.9)
+  - SVWebViewController (0.1)
+  - TouchXML (0.1)
+  - TTTAttributedLabel (1.4.1)
+  - US2FormValidator (1.0.9)
+
+DEPENDENCIES:
+  - CocoaLumberjack (~> 1.6)
+  - DCRoundSwitch (~> 0.0.1)
+  - DYRateView (~> 0.0.1)
+  - FormatterKit (~> 1.1.1)
+  - iRate (~> 1.7)
+  - JSONKit (~> 1.4)
+  - Mantle (~> 0.2.2)
+  - ODRefreshControl (~> 1.1.0)
+  - OHAttributedLabel (~> 3.3.0)
+  - PSTCollectionView (~> 0.0.1)
+  - ReactiveCocoa (~> 0.13.1)
+  - RSOAuthEngine (~> 1.0.0)
+  - SFHFKeychainUtils (~> 0.0.1)
+  - SVProgressHUD (~> 0.8)
+  - SVWebViewController (~> 0.1)
+  - TouchXML (~> 0.1)
+  - TTTAttributedLabel (~> 1.4.1)
+  - US2FormValidator (~> 1.0.5)
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: d73e1e317ced14ab930797dda6c17156ff17aaa1
+  DCRoundSwitch: c08f58330d242f182450b5e4ad32e5238f53d6d4
+  DYRateView: ed57ab9f1ff4298bdd808591ffa654df2d43c7da
+  FormatterKit: bb53f3de30773e6b06f91dee1f82b46f536278d7
+  iRate: 8de5eaeca627c7708c8aec279eeb8daf2551c774
+  JRSwizzle: 6242ff38485d870fc2636899048ee1ab883ae587
+  JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
+  libextobjc: 2cbc74caf8bdc74a86fdf24673f773c83424ea98
+  Mantle: 4a20405b7aba3452007294badee2b3cb137825c3
+  MKNetworkKit: f174100f92473012138b6b1c3040266af8d43a14
+  ODRefreshControl: 886e323a7c25114b9e5c397a9eefbebc034224a9
+  OHAttributedLabel: ed2e659c01af4c6cdc23909f04ffcdd417d37ae4
+  PSTCollectionView: 5461a4fbe17eb1e2d2fa7388105e708deb6dd1e7
+  Reachability: ba94ecd4eaa037be3d0588b38956672588530c5b
+  ReactiveCocoa: 4c00e739f511855018760a23c586f27299eb7e82
+  RSOAuthEngine: 48f6a30a75e8d4e591af77f4222f6153f8941850
+  SFHFKeychainUtils: e828dbd9eaa509486acf95d8de2ebd414c4b7451
+  SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
+  SVWebViewController: 2e3a367237bb7072e54e05c6eaa82d21a12ba676
+  TouchXML: 0fb977f0bdd2ce2e5d0790c80751769459708810
+  TTTAttributedLabel: 14873436523cdbe45784c404161e4575fa22706a
+  US2FormValidator: 1977872fb2a07ddd7965c0ad376a0928a370df80
+
+COCOAPODS: 0.20.1
